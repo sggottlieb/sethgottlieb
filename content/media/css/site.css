@@ -70,12 +70,13 @@ body{
 }
 
 footer{
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
     background-color: #69976A;
     padding: 24px;
     position: relative;
     bottom: 0;
+    color: #fff;
 
 }
 
@@ -244,11 +245,13 @@ h1.title{
 section.content{
     padding: 50px 100px 50px 50px;
     width: 500px; 
-    float: left
+    float: left;
+    min-height: 450px
 
 }
 
-section.content h3 {
+section.content h3,
+section.sidebar h3 {
     font-size: 2em;
     margin-bottom: 24px;
 }
@@ -270,7 +273,10 @@ section.sidebar {
     padding-left: 100px
 }
 
-
+section.sidebar ul {
+    list-style: none;
+    line-height: 1.5em;
+}
 
 /* listing */
 
