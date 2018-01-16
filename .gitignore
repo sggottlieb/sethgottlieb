@@ -7,6 +7,6 @@
 *.save
 *.mo
 
-build/*
+deploy/*
 
 
