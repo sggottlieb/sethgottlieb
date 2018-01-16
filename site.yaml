@@ -11,6 +11,7 @@ plugins:
     - hyde.ext.plugins.text.TextlinksPlugin
 context:
     data:
+        site_name: Seth Gottlieb
         tweet_via: sggottlieb
         menu:
             -

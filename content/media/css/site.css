@@ -48,7 +48,7 @@ table {
 }
 
 a {
-    color: #37e;
+    color: #222;
     text-decoration: underline;
 
 }
@@ -70,18 +70,36 @@ body{
 }
 
 footer{
-    font-size: 10px;
+    font-size: 12px;
     text-align: center;
-    margin-top: 24px;
-    text-shadow: 0px 2px 0px #fff;
+    background-color: #69976A;
+    padding: 24px;
+    position: relative;
+    bottom: 0;
+
 }
 
 /* Button styles from the awesome: http://www.webdesignerwall.com/demo/css-buttons.html */
 
+.tab {
+    display: inline-block;
+    zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+    vertical-align: baseline;
+    margin: 0 2px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    padding: 0.55em 1em 0.55em 1em;
+    width: 100px;
+
+}
+
 .button {
     display: inline-block;
     zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
-    *display: inline;
+    display: inline;
     vertical-align: baseline;
     margin: 0 2px;
     outline: none;
@@ -121,26 +139,24 @@ footer{
 }
 
 
+
+
 /* white */
 .white {
     color: #606060;
-    border: solid 1px #b7b7b7;
     background: #fff;
-    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
-    background: -moz-linear-gradient(top,  #fff,  #ededed);
-    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
+    
 }
 .white:hover {
     background: #ededed;
-    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
-    background: -moz-linear-gradient(top,  #fff,  #dcdcdc);
-    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
 }
+
 .white:active {
     color: #999;
-    background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#fff));
-    background: -moz-linear-gradient(top,  #ededed,  #fff);
-    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff');
+}
+
+.active {
+    background-color: #D6D6C4;
 }
 
 .banner{
@@ -170,7 +186,8 @@ footer{
 .banner nav{
     position: absolute;
     right: 200px;
-    bottom: 0;
+    bottom: 0px;
+
 }
 
 .banner nav li{

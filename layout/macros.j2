@@ -23,7 +23,7 @@
             {% set active = (node ==
                 site.content.node_from_relative_path(item.url)) -%}
         {%- endif %}
-        {% set classes = ['button', 'white'] -%}
+        {% set classes = ['tab', 'white'] -%}
         {% do classes.append('active') if active -%}
         {% do classes.append(item.css_class) if item.css_class -%}
         <li>

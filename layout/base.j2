@@ -21,7 +21,7 @@
         compatibility mode is within the first 1K bytes
         code.google.com/p/chromium/issues/detail?id=23003 -->
 
-  <title>{% block title %}{{ resource.meta.title }}{% endblock %}</title>
+  <title>{% block title %}{{ site.config.context.data.site_name}}: {{ resource.meta.title }}{% endblock %}</title>
   <meta name="description" content="{{ resource.meta.description }}">
   <meta name="author" content="{{ resource.meta.author }}">
 
@@ -91,12 +91,14 @@
             </ul>
           </section>
           <div class="clearfix"></div>
+      <footer>
+      Copyright Seth Gottlieb
+      </footer>
       </div>
+      
     {% endblock container %}
   </div> <!--! end of #container -->
-  <footer>
-      Copyright Seth Gottlieb
-  </footer>
+  
   {% endblock content%}
   {% block js %}
   <!-- Javascript at the bottom for fast page loading -->
