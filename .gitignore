@@ -1,0 +1,12 @@
+*.pyc
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+.env
+*.pyo
+*.save
+*.mo
+
+build/*
+
+
