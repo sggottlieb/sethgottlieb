@@ -9,3 +9,5 @@
 !!python/unicode 'media/js/libs/modernizr-1.7.min.js': []
 !!python/unicode 'product.html': [!!python/unicode 'macros.j2', !!python/unicode 'base.j2',
   !!python/unicode 'analytics.j2']
+!!python/unicode 'the404.html': [!!python/unicode 'macros.j2', !!python/unicode 'base.j2',
+  !!python/unicode 'home.j2', !!python/unicode 'analytics.j2']
